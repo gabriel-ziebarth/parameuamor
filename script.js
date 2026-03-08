@@ -23,8 +23,12 @@ function executar(){
     }, 1000);
   
     setTimeout(() => {
-      contentCarta.style.opacity = 1;
+      contentCarta.style.display = 'flex';
     }, 2000);
+
+    setTimeout(() => {
+      contentCarta.style.opacity = 1;
+    }, 2500);
   
     sec2.style.display= 'flex'
 }
