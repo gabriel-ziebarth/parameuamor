@@ -148,14 +148,11 @@ card9.addEventListener("click", () =>{
 
      
 
-
 carta.addEventListener('click', () => {
 
-  const topoDaSecao = sec1.getBoundingClientRect().top + window.scrollY;
-
-
-  window.scrollTo({
-    top: topoDaSecao + 1, 
+  window.scrollBy({
+    top: 80, // desce 80px
     behavior: 'smooth'
   });
+
 });
